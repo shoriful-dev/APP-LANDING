@@ -7,18 +7,20 @@ import SmartPhone from "../assets/smartphone.svg";
 const Navber = () => {
   return (
     <>
-      <nav className="flex items-center justify-between max-w-navContainer mx-auto py-10">
-        <div>
+      <nav className="flex items-center justify-between max-w-navContainer mx-auto py-10 relative">
+        <a href="#home">
           <Image imgSrc={Logo} className={'w-[98px] h-[16px]'} />
-        </div>
-        <div>
+        </a>
+        <div className="absolute ml-80">
           <MenuItems />
         </div>
-        <div className="flex space-x-2 items-center">
-          <Image imgSrc={SmartPhone} className={'w-[24px] h-[24px]'} />
-          <p className="text-[19px] font-roboto font-medium">
+        <div className="flex space-x-3 items-center">
+          <div>
+            <Image imgSrc={SmartPhone} className={'w-[24px] h-[24px]'} />
+          </div>
+          <h3 className="text-[19px] font-roboto font-medium text-white">
             +1 742 65 84 122
-          </p>
+          </h3>
         </div>
       </nav>
     </>

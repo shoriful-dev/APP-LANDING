@@ -7,28 +7,30 @@ const MenuItems = () => {
     <>
       <nav className="flex space-x-5">
         <ul className="flex items-center space-x-5">
-          <li className="font-roboto text-base text-blue-700 hover:text-[#FF6231]">
+          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
             Features
           </li>
-          <GoDotFill className="h-2 text-blue-700" />
-          <li className="font-roboto text-base text-blue-700 hover:text-[#FF6231]">
+          <GoDotFill className="h-2 text-white" />
+          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
             Download app
           </li>
-          <GoDotFill className="h-2 text-blue-700" />
-          <li className="font-roboto text-base text-blue-700 hover:text-[#FF6231]">
+          <GoDotFill className="h-2 text-white" />
+          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
             UI screens
           </li>
-          <GoDotFill className="h-2 text-blue-700" />
-          <li className="font-roboto text-base text-blue-700 hover:text-[#FF6231]">
+          <GoDotFill className="h-2 text-white" />
+          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
             Testimonials
           </li>
-          <GoDotFill className="h-2 text-blue-700" />
-          <li className="font-roboto text-base text-blue-700 hover:text-[#FF6231]">
+          <GoDotFill className="h-2 text-white" />
+          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
             FAQ
           </li>
-          <GoDotFill className="h-2 text-blue-700" />
+          <GoDotFill className="h-2 text-white" />
         </ul>
-        <MenuBtn menuBtnText={'Free trial'} />
+        <a href="#freetrial">
+          <MenuBtn menuBtnText={'Free trial'} />
+        </a>
       </nav>
     </>
   );

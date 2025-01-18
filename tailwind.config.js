@@ -9,6 +9,13 @@ export default {
       },
       fontFamily: {
         roboto: ['Roboto'],
+        Darker: ['Darker Grotesque'],
+      },
+      backgroundImage: {
+        bannerImage: "url('/src/assets/banner.png')",
+      },
+      colors: {
+        red: '#FF6231',
       },
     },
   },
