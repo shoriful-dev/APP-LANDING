@@ -1,25 +1,29 @@
-import Image from "./Image";
-import Dots from '../assets/dots.png';
+import Image from '../components/Image';
 import PreviewImage from '../assets/previewText.png';
-import Container from "./Container";
-
+import Container from './Container';
+import { GoDotFill } from 'react-icons/go';
 
 const HeadingOne = () => {
   return (
     <Container>
-      <div className="">
+      <div>
         <div className="flex justify-center">
-          <Image imgSrc={Dots} className={'w-[16px] h-[6px]'} />
+          <span className="flex text-red">
+            <GoDotFill />
+            <GoDotFill />
+          </span>
         </div>
         <div className="flex justify-center">
-          <Image imgSrc={PreviewImage} className={'w-[703px] h-[47px] mt-2'} />
+          <Image imgSrc={PreviewImage} className={'md:w-[703px] w-auto md:h-[47px] h-auto mt-2'} />
         </div>
-        <div className="flex justify-center mt-[-50px]">
-          <h3 className="text-[50px] font-semibold font-Darker">See what you will get with us</h3>
+        <div className="flex justify-center md:mt-[-50px] mt-[-25px]">
+          <h3 className="md:text-[50px] text-[30px] font-semibold font-Darker">
+            See what you will get with us
+          </h3>
         </div>
       </div>
     </Container>
   );
-}
+};
 
-export default HeadingOne
+export default HeadingOne;

@@ -4,7 +4,7 @@ import Image from './Image'
 const WhatWillGetCart = ({imgSrc, header, text}) => {
   return (
     <>
-      <div className="w-[360px] h-[600px] px-10 py-10 shadow-2xl rounded-2xl">
+      <div className="w-[360px] h-[600px] px-10 py-10 shadow-2xl rounded-2xl mb-[100px]">
         <div className="">
           <Image imgSrc={imgSrc} />
         </div>

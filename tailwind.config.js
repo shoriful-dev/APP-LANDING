@@ -12,7 +12,7 @@ export default {
         Darker: ['Darker Grotesque'],
       },
       backgroundImage: {
-        bannerImage: "url('/src/assets/banner.png')",
+        bannerImage: "url('/src/assets/BannerBG.png')",
       },
       colors: {
         red: '#FF6231',
