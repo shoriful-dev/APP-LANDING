@@ -1,4 +1,4 @@
-import MenuItems from "../components/menuItems";
+import MenuItems from "../components/MenuItems";
 import Image from "../components/Image" ;
 import Logo from "../assets/Logo.svg";
 import SmartPhone from "../assets/smartphone.svg";
