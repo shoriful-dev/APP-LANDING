@@ -13,9 +13,11 @@ export default {
       },
       backgroundImage: {
         bannerImage: "url('/src/assets/BannerBG.png')",
+        bannerUI: "url('/src/assets/UIImage.png')",
       },
       colors: {
         red: '#FF6231',
+        gray: '#888888',
       },
     },
   },

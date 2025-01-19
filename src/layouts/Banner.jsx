@@ -25,7 +25,7 @@ const Banner = () => {
                 eiusmod officia magna ad id.
               </p>
               <a href="#" className='flex justify-center md:justify-start'>
-                <Button btnText={'Learn more'} className={'mt-10 z-30'} />
+                <Button btnText={'Learn more'} className={'mt-10 z-30'} />;
               </a>
             </div>
           </Container>

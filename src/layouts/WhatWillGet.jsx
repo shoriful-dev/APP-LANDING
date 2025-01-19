@@ -1,16 +1,21 @@
-import Container from "../components/Container";
-import HeadingOne from "../components/HeadingOne";
-import WhatWillGetCart from "../components/WhatWillGetCart";
+import Container from '../components/Container';
+import HeadingOne from '../components/HeadingOne';
+import WhatWillGetCart from '../components/WhatWillGetCart';
 import WhatWillGetOne from '../assets/whatWillGetOne.svg';
 import WhatWillGetTwo from '../assets/whatWillGetTwo.svg';
 import WhatWillGetThree from '../assets/whatWillGetThree.svg';
-
+import Image from '../components/Image';
+import RightShape from '../assets/rightDots.svg';
+import PreviewOne from '../assets/previewText.png';
 
 const WhatWillGet = () => {
   return (
     <>
       <div>
-        <HeadingOne />
+        <HeadingOne
+          imgSrc={PreviewOne}
+          text={'See what you will get with us'}
+        />
       </div>
       <Container>
         <div className="grid md:grid-cols-3 grid-cols-1 md:justify-between md:mt-10 mt-0">
@@ -43,8 +48,14 @@ const WhatWillGet = () => {
           </div>
         </div>
       </Container>
+      <div className="relative hidden md:block">
+        <Image
+          imgSrc={RightShape}
+          className={'w-[273px] h-[384] absolute right-20 top-[-200px]'}
+        />
+      </div>
     </>
   );
-}
+};
 
 export default WhatWillGet;
