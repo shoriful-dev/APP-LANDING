@@ -7,9 +7,11 @@ const MenuItems = () => {
     <>
       <nav className="flex space-x-5">
         <ul className="flex items-center space-x-5">
-          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
-            Features
-          </li>
+          <a href="#WhatWillGet">
+            <li className="font-roboto text-base text-white hover:text-[#FF6231]">
+              Features
+            </li>
+          </a>
           <GoDotFill className="h-2 text-white" />
           <li className="font-roboto text-base text-white hover:text-[#FF6231]">
             Download app

@@ -8,6 +8,8 @@ import SlickFive from '../assets/SlickFive.png';
 import SlickSix from '../assets/SIx.png';
 import PreviewOne from '../assets/PreviewTwo.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import RightShape from '../assets/rightDots.svg';
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -72,6 +74,12 @@ const UiPart = () => {
             </Swiper>
           </div>
         </Container>
+      </div>
+      <div className="relative hidden md:block">
+        <Image
+          imgSrc={RightShape}
+          className={'w-[274px] h-[384] absolute right-20 top-[100px]'}
+        />
       </div>
     </>
   );
