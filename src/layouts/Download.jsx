@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../components/Container';
 import Dots from '../assets/dots.png';
 import Image from '../components/Image';
-import EasyText from '../assets/easyText.png';
+import EasyText from '../assets/EasyText.png';
 import { IoLogoGooglePlaystore } from 'react-icons/io5';
 import { FaApple } from 'react-icons/fa6';
 import Basic from '../assets/Basic.png';
