@@ -1,4 +1,5 @@
 import Banner from "../layouts/Banner";
+import Download from "../layouts/Download";
 import Navber from "../layouts/Navber";
 import TheMostPopuler from "../layouts/TheMostPopuler";
 import UiPart from "../layouts/UiPart";
@@ -13,6 +14,7 @@ const Home = () => {
     <WhatWillGet />
     <TheMostPopuler />
     <UiPart />
+    <Download />
     </>
   )
 }
