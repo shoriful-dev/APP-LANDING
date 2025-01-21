@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from './Image';
-import Frame from '../assets/frame.png';
+import Image from '../components/Image';
+import Frame from '../assets/Frame.png';
 
 
 const AboutCart = ({ imgSrc, text}) => {
