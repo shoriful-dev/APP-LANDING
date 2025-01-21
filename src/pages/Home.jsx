@@ -1,3 +1,4 @@
+import AboutUs from "../layouts/AboutUs";
 import Banner from "../layouts/Banner";
 import Download from "../layouts/Download";
 import Navber from "../layouts/Navber";
@@ -15,6 +16,7 @@ const Home = () => {
     <TheMostPopuler />
     <UiPart />
     <Download />
+    <AboutUs />
     </>
   )
 }

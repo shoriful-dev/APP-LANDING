@@ -48,11 +48,8 @@ const WhatWillGet = () => {
           </div>
         </div>
       </Container>
-      <div className="relative hidden md:block">
-        <Image
-          imgSrc={RightShape}
-          className={'w-[273px] h-[384] absolute right-20 top-[-200px]'}
-        />
+      <div className="w-[273px] h-[384] right-[-1580px] top-[-200px] relative hidden md:block">
+        <Image imgSrc={RightShape} />
       </div>
     </>
   );

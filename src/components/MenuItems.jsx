@@ -1,6 +1,5 @@
-import { GoDotFill } from "react-icons/go";
-import MenuBtn from "./MenuBtn";
-
+import { GoDotFill } from 'react-icons/go';
+import MenuBtn from './MenuBtn';
 
 const MenuItems = () => {
   return (

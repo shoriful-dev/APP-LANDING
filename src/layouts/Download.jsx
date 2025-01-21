@@ -7,16 +7,18 @@ import { IoLogoGooglePlaystore } from 'react-icons/io5';
 import { FaApple } from 'react-icons/fa6';
 import Basic from '../assets/Basic.png';
 import Populer from '../assets/Popuper.png';
+import { GoDotFill } from 'react-icons/go';
 
 const Download = () => {
   return (
     <>
       <Container>
-        <div className="mt-60 flex justify-between mb-20">
+        <div className="mt-[-150px] flex justify-between mb-20">
           <div>
-          <div>
-            <Image imgSrc={Dots} className={'h-[6px] w-[16px]'} />
-          </div>
+         <span className="flex text-red">
+              <GoDotFill />
+              <GoDotFill />
+            </span>
             <Image imgSrc={EasyText} className={'w-[456px] text-[40px] pt-2'} />
             <h3 className="text-[50px] font-semibold font-Darker w-[457px] mt-[-95px] leading-[50px]">
               easy download and ready to use
