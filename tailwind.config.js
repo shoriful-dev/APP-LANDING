@@ -14,6 +14,9 @@ export default {
       backgroundImage: {
         bannerImage: "url('/src/assets/BannerBG.png')",
         bannerUI: "url('/src/assets/UIImage.png')",
+        TrialCart: "url('/src/assets/CtaBG.png')",
+        trialBg: "url('/src/assets/ctabg2.png')", 
+        OfferBg: "url('/src/assets/popupBg.png')", 
       },
       colors: {
         red: '#FF6231',
