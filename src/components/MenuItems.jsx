@@ -6,7 +6,7 @@ const MenuItems = () => {
     <>
       <nav className="flex space-x-5">
         <ul className="flex items-center space-x-5">
-          <a href="#WhatWillGet">
+          <a href="#whatwillget">
             <li className="font-roboto text-base text-white hover:text-[#FF6231] cursor-pointer">
               Features
             </li>

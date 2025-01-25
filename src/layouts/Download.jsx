@@ -12,14 +12,19 @@ import LeftShape from '../assets/leftDots.svg';
 const Download = () => {
   return (
     <>
-      <Container>
+      <Container className={'mb-20'}>
         <div className="mt-[-150px] flex justify-between mb-[-250px]">
           <div>
-            <span className="flex text-red">
+            <span className="flex text-red justify-center md:justify-start">
               <GoDotFill />
               <GoDotFill />
             </span>
-            <Image imgSrc={EasyText} className={'w-[456px] text-[40px] pt-2'} />
+            <div className="flex justify-center md:justify-start">
+              <Image
+                imgSrc={EasyText}
+                className={'md:w-[456px] w-[350px] md:text-[40px] text-lg pt-2'}
+              />
+            </div>
             <h3 className="text-[50px] font-semibold font-Darker w-[457px] mt-[-95px] leading-[50px]">
               easy download and ready to use
             </h3>
@@ -65,3 +70,4 @@ const Download = () => {
 }
 
 export default Download;
+

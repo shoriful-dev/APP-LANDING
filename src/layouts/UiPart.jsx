@@ -21,11 +21,12 @@ import HeadingOne from '../components/HeadingOne';
 
 const UiPart = () => {
   let color = true;
+  
   return (
     <>
-      <div className="bg-bannerUI h-[1172px] mt-[-450px]">
+      <div className="bg-bannerUI h-auto mt-[-350px] md:mt-[-500px] md:h-[1172px] mb-60 md:mb-0">  
         <Container className={'mt-20'}>
-          <div className="pt-80">
+          <div className="pt-40 md:pt-80">
             <HeadingOne
               imgSrc={PreviewOne}
               text={'watch our UI presentation'}
@@ -51,6 +52,17 @@ const UiPart = () => {
               pagination={true}
               modules={[EffectCoverflow]}
               className="mySwiper"
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
             >
               <SwiperSlide>
                 <Image imgSrc={SlickFive} />
@@ -74,7 +86,7 @@ const UiPart = () => {
           </div>
         </Container>
       </div>
-      <div className="w-[273px] h-[384] right-[-1580px] top-0 relative hidden md:block">
+      <div className="w-[273px] h-[384px] right-[-1580px] top-0 relative hidden md:block">
         <Image imgSrc={RightShape} />
       </div>
     </>
