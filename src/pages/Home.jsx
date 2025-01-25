@@ -1,6 +1,7 @@
 import AboutUs from "../layouts/AboutUs";
 import Banner from "../layouts/Banner";
 import Download from "../layouts/Download";
+import Footer from "../layouts/Footer";
 import FrequentlyQuestions from "../layouts/FrequentlyQuestions";
 import GetTrial from "../layouts/GetTrial";
 import Navber from "../layouts/Navber";
@@ -23,6 +24,7 @@ const Home = () => {
     <GetTrial />
     <FrequentlyQuestions />
     <NewFeatures />
+    <Footer />
     </>
   )
 }

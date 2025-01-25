@@ -18,6 +18,7 @@ export default {
         trialBg: "url('/src/assets/ctabg2.png')", 
         OfferBg: "url('/src/assets/popupBg.png')", 
         FeautureBg: "url('/src/assets/Subscribe.png')",
+        FooterBg: "url('/src/assets/Footer.png')",
       },
       colors: {
         red: '#FF6231',

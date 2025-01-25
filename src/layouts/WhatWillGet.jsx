@@ -18,7 +18,7 @@ const WhatWillGet = () => {
         />
       </div>
       <Container id={'WhatWillGet'}>
-        <div className="grid md:grid-cols-3 grid-cols-1 md:justify-between md:mt-10 mt-0">
+        <div className="grid md:grid-cols-3 grid-cols-1 md:justify-between md:mt-10 mt-0 px-5 md:px-0">
           <div className="pt-5 md:pt-0">
             <WhatWillGetCart
               imgSrc={WhatWillGetOne}

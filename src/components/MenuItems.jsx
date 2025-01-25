@@ -7,24 +7,24 @@ const MenuItems = () => {
       <nav className="flex space-x-5">
         <ul className="flex items-center space-x-5">
           <a href="#WhatWillGet">
-            <li className="font-roboto text-base text-white hover:text-[#FF6231]">
+            <li className="font-roboto text-base text-white hover:text-[#FF6231] cursor-pointer">
               Features
             </li>
           </a>
           <GoDotFill className="h-2 text-white" />
-          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
+          <li className="font-roboto text-base text-white hover:text-[#FF6231] cursor-pointer">
             Download app
           </li>
           <GoDotFill className="h-2 text-white" />
-          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
+          <li className="font-roboto text-base text-white hover:text-[#FF6231] cursor-pointer">
             UI screens
           </li>
           <GoDotFill className="h-2 text-white" />
-          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
+          <li className="font-roboto text-base text-white hover:text-[#FF6231] cursor-pointer">
             Testimonials
           </li>
           <GoDotFill className="h-2 text-white" />
-          <li className="font-roboto text-base text-white hover:text-[#FF6231]">
+          <li className="font-roboto text-base text-white hover:text-[#FF6231] cursor-pointer">
             FAQ
           </li>
           <GoDotFill className="h-2 text-white" />

@@ -6,7 +6,7 @@ const NewFeatures = () => {
   return (
     <>
       <Container>
-        <div className="bg-FeautureBg h-[465px] mb-20 relative">
+        <div className="bg-FeautureBg h-[465px] rounded-3xl relative z-10">
           <h3 className="text-4xl font-Darker font-semibold absolute top-52 left-[470px]">
             Be aware of new features
           </h3>

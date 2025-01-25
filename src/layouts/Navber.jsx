@@ -22,7 +22,7 @@ const Navber = () => {
             +1 742 65 84 122
           </h3>
         </div>
-        <div className="md:hidden border border-red px-3 py-3 rounded-full">
+        <div className="md:hidden hover:bg-red hover:border-white duration-500 hover:scale-125 border border-red px-3 py-3 rounded-full">
           <FaBarsProgress className="text-2xl text-white" />
         </div>
       </nav>
