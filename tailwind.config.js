@@ -17,6 +17,7 @@ export default {
         TrialCart: "url('/src/assets/CtaBG.png')",
         trialBg: "url('/src/assets/ctabg2.png')", 
         OfferBg: "url('/src/assets/popupBg.png')", 
+        FeautureBg: "url('/src/assets/Subscribe.png')",
       },
       colors: {
         red: '#FF6231',
