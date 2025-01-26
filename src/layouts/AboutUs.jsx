@@ -28,7 +28,7 @@ const AboutUs = () => {
             <GoDotFill />
             <GoDotFill />
           </span>
-          <div className="">
+          <div>
             <div className="w-[420px] pt-2">
               <Image imgSrc={AboutText} />
             </div>
