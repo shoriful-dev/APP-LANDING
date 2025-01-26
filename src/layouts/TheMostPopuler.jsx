@@ -37,7 +37,7 @@ const TheMostPopuler = () => {
               </h3>
             </div>
             <div className="flex justify-center md:justify-start">
-              <p className="font-Darker md:text-[28px] text-xl font-medium md:w-[457px] w-[300px] text-gray mt-5 text-center">
+              <p className="font-Darker md:text-[28px] text-xl font-medium md:w-[457px] w-[300px] text-gray mt-5 text-center md:text-start">
                 Culpa non ex tempor qui nulla laborum. Laboris culpa ea
                 incididunt dolore ipsum.
               </p>
