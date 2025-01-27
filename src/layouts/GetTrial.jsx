@@ -18,7 +18,7 @@ const GetTrial = () => {
       <div className="w-[273px] h-[384] right-[-1580px] top-[0px] relative hidden md:block">
         <Image imgSrc={RightShape} />
       </div>
-      <div className="bg-TrialCart h-[1064px] mt-[-550px]">
+      <div className="bg-TrialCart h-[1064px] md:mt-[-550px] mt-0">
         <Container>
           <div className="pt-72 relative">
             <div className="bg-trialBg h-[564px] py-[150px]">

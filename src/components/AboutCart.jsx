@@ -6,11 +6,11 @@ import Frame from '../assets/Frame.png';
 const AboutCart = ({ imgSrc, text}) => {
   return (
     <>
-      <div className="w-[480px] h-[333px] shadow-2xl rounded-2xl border-gray-200 px-10 py-6 mb-20">
+      <div className="md:w-[480px] w-[350px] h-[333px] shadow-2xl rounded-2xl border-gray-200 md:px-10 px-5 py-6">
         <div className={'h-[50px] w-[50px]'}>
           <Image imgSrc={Frame} />
         </div>
-        <p className="font-roboto text-gray pt-5 w-[400px]">
+        <p className="font-roboto text-gray pt-5 md:w-[400px]">
           “Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est
           officia excepteur cupidatat consectetur. Labore do nulla ipsum dolore
           ipsum. Proident excepteur ex aliqua cupidatat.”

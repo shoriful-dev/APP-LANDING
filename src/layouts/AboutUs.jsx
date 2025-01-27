@@ -17,18 +17,18 @@ const AboutUs = () => {
     focusOnSelect: true,
     infinite: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     speed: 500,
   };
   return (
     <>
       <Container>
         <div className="">
-          <span className="flex text-red">
+          <span className="flex text-red px-5 md:px-0">
             <GoDotFill />
             <GoDotFill />
           </span>
-          <div>
+          <div className='px-5 md:px-0'>
             <div className="w-[420px] pt-2">
               <Image imgSrc={AboutText} />
             </div>
@@ -36,7 +36,7 @@ const AboutUs = () => {
               they say about us
             </h3>
           </div>
-          <div className="w-[1500px] h-[457px] mt-10">
+          <div className="w-[1520px] h-[457px] mt-10 px-5">
             <Slider {...settings}>
               <div>
                 <AboutCart imgSrc={ManOne} text={'Brooklyn Simmons'} />
